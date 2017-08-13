@@ -14,6 +14,8 @@
 		9BBF7BD51F408C070015CEF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBF7BD31F408C070015CEF2 /* LaunchScreen.storyboard */; };
 		9BBF7BE01F408C070015CEF2 /* PatternAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF7BDF1F408C070015CEF2 /* PatternAdapterTests.swift */; };
 		9BBF7BEB1F408C070015CEF2 /* PatternAdapterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF7BEA1F408C070015CEF2 /* PatternAdapterUITests.swift */; };
+		9BBF7BF91F408C7A0015CEF2 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF7BF81F408C7A0015CEF2 /* Duck.swift */; };
+		9BBF7BFB1F408CD30015CEF2 /* Turkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBF7BFA1F408CD30015CEF2 /* Turkey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9BBF7BE61F408C070015CEF2 /* PatternAdapterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternAdapterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBF7BEA1F408C070015CEF2 /* PatternAdapterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternAdapterUITests.swift; sourceTree = "<group>"; };
 		9BBF7BEC1F408C070015CEF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBF7BF81F408C7A0015CEF2 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		9BBF7BFA1F408CD30015CEF2 /* Turkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turkey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				9BBF7BCA1F408C070015CEF2 /* AppDelegate.swift */,
 				9BBF7BCC1F408C070015CEF2 /* ViewController.swift */,
+				9BBF7BF81F408C7A0015CEF2 /* Duck.swift */,
+				9BBF7BFA1F408CD30015CEF2 /* Turkey.swift */,
 				9BBF7BCE1F408C070015CEF2 /* Main.storyboard */,
 				9BBF7BD11F408C070015CEF2 /* Assets.xcassets */,
 				9BBF7BD31F408C070015CEF2 /* LaunchScreen.storyboard */,
@@ -264,6 +270,8 @@
 			files = (
 				9BBF7BCD1F408C070015CEF2 /* ViewController.swift in Sources */,
 				9BBF7BCB1F408C070015CEF2 /* AppDelegate.swift in Sources */,
+				9BBF7BF91F408C7A0015CEF2 /* Duck.swift in Sources */,
+				9BBF7BFB1F408CD30015CEF2 /* Turkey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

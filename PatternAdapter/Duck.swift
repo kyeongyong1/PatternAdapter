@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+protocol Duck {
+    func quack()
+    func fly()
+}
+
+class MallardDuck: Duck {
+    func quack() {
+        print("Quack")
+    }
+    
+    func fly() {
+        print("I'm flying")
+    }
+    
+}

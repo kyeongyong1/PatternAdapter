@@ -12,14 +12,28 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let duck = MallardDuck()
+        
+        let turkey = WildTurkey()
+        let turkeyAdapter = TurkeyAdapter(turkey: turkey)
+        
+        print("The Turkey says...")
+        turkey.gobble()
+        turkey.fly()
+        
+        print("The Duck says...")
+        testDuck(duck: duck)
+        
+        print("The TurkeyAdapter says...")
+        testDuck(duck: turkeyAdapter)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func testDuck(duck: Duck) {
+        duck.quack()
+        duck.fly()
     }
-
-
+    
 }
 
